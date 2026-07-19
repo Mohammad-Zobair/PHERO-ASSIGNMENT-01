@@ -1,0 +1,307 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nav bar style start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-pages {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-pages a {
+    text-decoration-line: none;
+    color: #575757;
+    font-size: 20px;
+}
+
+/* common button */
+.common-button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* nav bar style end */
+
+/* hero section style start */
+body {
+    margin: 0px;
+}
+
+.hero-section {
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-width: 900;
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+.hero-content p {
+    font-size: 22px;
+    font-weight: 400px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 240px;
+
+}
+
+.hero-cta-btn {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 20px 50px;
+    font-size: 20px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+/* hero section style end */
+
+/* meet the speaker section style start */
+.mts-section h1 {
+    color: black;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.mts-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    gap: 22px;
+}
+
+.mts-card-container img {
+    width: 100%;
+}
+
+.ajdrej-card,
+.gray-card,
+.mustafa-card,
+.demis-card {
+    text-align: left;
+    border: solid 1px #e5e7eb;
+    border-radius: 12px;
+
+
+}
+
+.ajdrej-card h6,
+.gray-card h6,
+.mustafa-card h6,
+.demis-card h6 {
+    color: #1d4ed8;
+}
+
+
+.ajdrej-card img,
+.gray-card img,
+.mustafa-card img,
+.demis-card img {
+    border: 1px solid #e5e7eb;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.ajdrej-card p,
+.gray-card p,
+.mustafa-card p,
+.demis-card p {
+    color: #575757;
+}
+
+.andrej-card-texts,
+.demis-card-texts,
+.gray-card-texts,
+.mustafa-card-texts {
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.mts-section{
+    margin-bottom: 130px;
+}
+
+/* meet the speaker section style end */
+
+/* secure your spot style star */
+.sys-section {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.sys-card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+    gap: 30px;
+}
+
+.sys-standard-card-standart,
+.sys-standard-card-pro,
+.sys-standard-card-team {
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 32px;
+    text-align: left;
+}
+.sys-standard-card-standart, .sys-standard-card-team{
+    background-color: #f8f9fb;
+}
+
+
+.sys-standard-card-standart .p1 {
+    color: #888888;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.sys-standard-card-standart h1 {
+    color: #0d1b2a;
+    font-weight: bold;
+    font-size: 52px;
+    margin: 0px;
+}
+
+.sys-standard-card-standart .p2 {
+    color: #888888;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 35px;
+}
+
+.sys-standard-card-standart ul li::marker {
+    color: blue;
+}
+
+.sys-standard-card-standart ul {
+    padding-left: 32px;
+}
+
+.sys-standard-card-standart button {
+    display: block;
+    margin: 30px auto 0px;
+    border: solid 1px #2563ebFF;
+    background-color: white;
+    color: #2563ebFF;
+    border-radius: 8px;
+    height: 45px;
+    width: 304.66px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sys-standard-card-pro {
+    background-color: navy;
+}
+
+.sys-standard-card-pro .p1 {
+    color: #93c5fdFF;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.sys-standard-card-pro h1 {
+    color: #ffffffFF;
+    font-weight: 700;
+    font-size: 44px;
+    margin: 0px;
+}
+
+.sys-standard-card-pro .p2 {
+    color: #ffffff80;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 35px;
+}
+
+.sys-standard-card-pro ul li::marker {
+    color: #1d4ed8;
+}
+
+.sys-standard-card-pro ul li {
+    color: white
+}
+
+.sys-standard-card-pro button {
+    display: block;
+    margin: 40px auto 0px;
+    border: solid 1px #2563ebFF;
+    background-color: #2563ebFF;
+    color: white;
+    border-radius: 8px;
+    height: 45px;
+    width: 304.66px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.sys-standard-card-team .p1{
+        font-weight: 600;
+        font-size: 13px;
+        color: #888888FF;
+        margin-bottom: 4px;
+}
+.sys-standard-card-team h1{
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0px;
+}
+.sys-standard-card-team .p2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888FF;
+    margin-top: 4px;
+    margin-bottom: 45px;
+}
+.sys-standard-card-team ul li::marker{
+    color:#1d4ed8
+}
+
+.sys-standard-card-team button{
+     display: block;
+    margin: 30px auto 0px;
+    border: solid 1px #2563ebFF;
+    background-color: white;
+    color: #2563ebFF;
+    border-radius: 8px;
+    height: 45px;
+    width: 304.66px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sys-card-container .sys-seciton-heading{
+    color: turquoise;
+}
+/* secure your spot style end */
